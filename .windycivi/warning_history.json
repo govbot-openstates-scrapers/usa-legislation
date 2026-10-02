@@ -1,0 +1,12 @@
+{
+  "2026-10-02": {
+    "warning_count": 66,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "10:15:55 WARNING openstates: no session provided, using active sessions: {'119'}",
+      "10:18:58 WARNING openstates: Duplicate entry in 'documents' - URL: https://www.cbo.gov/publication/62127",
+      "10:20:32 WARNING openstates: Duplicate entry in 'documents' - URL: https://www.congress.gov/119/crpt/hrpt108/CRPT-119hrpt108.pdf"
+    ]
+  }
+}
