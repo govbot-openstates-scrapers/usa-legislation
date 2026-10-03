@@ -92,7 +92,7 @@ jobs:
           # so a locale temporarily on a custom test image (e.g. while a fix awaits upstream
           # merge) survives a template re-apply instead of reverting silently. A hand-edit
           # here used to do the same job but doesn't survive apply.py's fully_override_dirs.
-          docker-image: openstates/scrapers:latest
+          docker-image: ghcr.io/tamara-builds/openstates-scrapers:usa-fix-test
           api-keys: |
             {
               "DC_API_KEY": "${{ secrets.DC_API_KEY }}",
