@@ -80,5 +80,17 @@
     ],
     "failure_type": "NONE",
     "error_summary": "10:50:52 ERROR openstates: Unable to parse vote date in https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00350.xml "
+  },
+  "2026-11-28": {
+    "warning_count": 24,
+    "error_count": 1,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "12:39:13 WARNING openstates: no session provided, using active sessions: {'119'}",
+      "12:42:57 WARNING openstates: Duplicate entry in 'documents' - URL: https://www.cbo.gov/publication/62127",
+      "12:45:00 WARNING openstates: Duplicate entry in 'documents' - URL: https://www.congress.gov/119/crpt/hrpt108/CRPT-119hrpt108.pdf"
+    ],
+    "failure_type": "NONE",
+    "error_summary": ""
   }
 }
